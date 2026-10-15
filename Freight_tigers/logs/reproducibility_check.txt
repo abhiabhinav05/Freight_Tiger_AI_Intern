@@ -1,0 +1,10 @@
+Reproducibility check: 3 untouched runs of `python build_assistant.py` on the same input.
+
+run 1: sha256 5bfd1d7e8d2d125d1f1fd4da48ddc3efaf16cfb0fe43407bf47eb002551ba7ed
+run 2: sha256 5bfd1d7e8d2d125d1f1fd4da48ddc3efaf16cfb0fe43407bf47eb002551ba7ed
+run 3: sha256 5bfd1d7e8d2d125d1f1fd4da48ddc3efaf16cfb0fe43407bf47eb002551ba7ed
+
+diff run1 vs run2: 0 differing lines
+diff run1 vs run3: 0 differing lines
+rows: 728, flagged Yes: 16, justified: 4
+Result: IDENTICAL - flags, numbers, cited notes and wording all match.

@@ -1,0 +1,11 @@
+note_id,expected_raises_costs,expected_start,expected_end,why
+N001,True,2025-02-24,2025-03-08,Flood forced detours and higher trip costs from Feb 24 to Mar 8
+N002,True,2025-01-20,2025-01-26,Temporary festival surcharge that week
+N003,True,2025-05-05,2025-06-29,Diesel rise from this week; lasting until absorbed by the 8-week baseline
+N004,False,2024-03-11,2024-03-17,Toll plaza affects routes not in this dataset
+N005,False,2024-07-29,2024-08-04,Maintenance delays but costs not significantly affected
+N006,False,2025-09-22,2025-09-28,Demand stable with no disruptions
+N007,False,2024-05-20,2024-05-26,Road conditions improved
+N008,False,2025-06-09,2025-06-15,No disruptions; movement normal
+N009,False,2025-03-17,2025-03-23,Route returned to normal
+N010,False,2025-10-27,2025-11-02,Compliance costs absorbed without a rate change

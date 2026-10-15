@@ -1,0 +1,11 @@
+Input shipments: 2940
+Context notes: 10
+Output route-weeks: 728
+Flagged Yes: 16, No (justified): 4, No: 708
+Retrieval: in-process TF-IDF index, no API calls, no tokens.
+Mode: deterministic (no LLM)
+LLM calls: 0
+Input tokens: 0
+Output tokens: 0
+Model cost: USD 0.00
+Randomness: none; all calculations and decisions are deterministic.

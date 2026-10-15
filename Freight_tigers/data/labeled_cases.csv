@@ -1,0 +1,16 @@
+route,week_of,expected_flagged,expected_note_id,why
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,Festival-week surcharge note for this exact corridor and week
+Chennai-Bangalore,2025-02-24,No (justified),N001,Flood note covers Feb 24 to Mar 8 on this route
+Chennai-Bangalore,2025-03-03,No (justified),N001,Week Mar 3-9 overlaps the flood period ending Mar 8
+Chennai-Bangalore,2025-03-10,Yes,,Roads passable again by Mar 9 - flood note no longer applies
+Chennai-Bangalore,2025-03-17,Yes,,N009 says the route returned to normal - not a cost reason
+Mumbai-Delhi,2025-05-12,No (justified),N003,Nationwide diesel rise from May 5 (5-7%) covers an 11.6% rise vs history once removed
+Chennai-Bangalore,2025-05-05,No,,Only +1.5% vs own history; an all-routes diesel note must not be cited for a non-alert
+Delhi-Jaipur,2024-11-11,Yes,,Large spike with no note for this route or period
+Delhi-Jaipur,2024-11-18,Yes,,Spike continues with no note
+Mumbai-Pune,2025-09-15,Yes,,Sample row: N006 reports stable demand so cannot justify
+Mumbai-Pune,2025-12-22,Yes,,Late-2025 creep: about 39% above the only Short peer while still rising
+Mumbai-Pune,2024-03-25,No,,Flat costs; the ~11% gap to Delhi-Jaipur is the usual structural spread
+Mumbai-Delhi,2024-07-29,No,,N005 maintenance note says costs were not significantly affected
+Kolkata-Bhubaneswar,2025-06-09,No,,N008 reports normal movement; nothing elevated
+Ahmedabad-Mumbai,2024-01-01,No,,First week: no history to show a rise
